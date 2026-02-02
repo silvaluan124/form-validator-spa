@@ -1,5 +1,7 @@
+/*Inicializa animação das particulas*/ 
 function initParticles() {
     particlesJS('particles-js', {
+
         // Configurações das partículas (exemplo padrão)
         "particles": {
             "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
@@ -17,6 +19,7 @@ function initParticles() {
         "retina_detect": true
     });
 }
+
 document.addEventListener("DOMContentLoaded", () => {
     
     initParticles();
